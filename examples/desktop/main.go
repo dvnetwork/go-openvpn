@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn3"
+	"github.com/dvnetwork/go-openvpn/openvpn3"
 )
 
 type callbacks interface {

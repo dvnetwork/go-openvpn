@@ -9,7 +9,7 @@ fi
 
 docker run -it --rm \
     -v $PWD:/go-src-root/ \
-    -v $PWD:/go/src/github.com/mysteriumnetwork/go-openvpn \
-    -w /go/src/github.com/mysteriumnetwork/go-openvpn \
+    -v $PWD:/go/src/github.com/dvnetwork/go-openvpn \
+    -w /go/src/github.com/dvnetwork/go-openvpn \
     --entrypoint "/bin/bash" \
     mysteriumnetwork/xgo:1.11 -c "${COMMAND}"

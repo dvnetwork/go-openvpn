@@ -24,7 +24,7 @@ import (
 
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
-	"github.com/mysteriumnetwork/go-openvpn/ci/util"
+	"github.com/dvnetwork/go-openvpn/ci/util"
 )
 
 // Runs the test suite against the repo

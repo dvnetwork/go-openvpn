@@ -20,7 +20,7 @@ package tunnel
 import (
 	"errors"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/config"
+	"github.com/dvnetwork/go-openvpn/openvpn/config"
 )
 
 const tunLogPrefix = "[linux tun service] "

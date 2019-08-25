@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/mysteriumnetwork/go-openvpn/openvpn/management"
+	"github.com/dvnetwork/go-openvpn/openvpn/management"
 )
 
 var rule = regexp.MustCompile("^>BYTECOUNT_CLI:([0-9]*),([0-9]*),([0-9]*)$")
